@@ -1,0 +1,46 @@
+project:
+  name: "Plant Disease Classification"
+  seed: 42
+
+paths:
+  raw_repo_dir: "data/raw/PlantVillage-Dataset"
+  raw_color_dir: "data/raw/PlantVillage-Dataset/raw/color"
+  leaf_grouping_dir: "data/raw/PlantVillage-Dataset/leaf_grouping"
+  processed_dir: "data/processed"
+  splits_csv: "data/processed/dataset_splits.csv"
+  features_npz: "data/processed/handcrafted_features.npz"
+  features_meta_json: "data/processed/feature_metadata.json"
+  models_dir: "models"
+  outputs_dir: "outputs"
+  figures_dir: "outputs/figures"
+  metrics_dir: "outputs/metrics"
+
+dataset:
+  repo_url: "https://github.com/spMohanty/PlantVillage-Dataset.git"
+  train_ratio: 0.70
+  val_ratio: 0.15
+  test_ratio: 0.15
+  image_size: 224
+  feature_image_size: 128
+
+features:
+  hsv_bins: [8, 8, 8]          # 24 marginal histogram bins (8+8+8)
+  lab_bins: [8, 8, 8]          # 24 marginal histogram bins (8+8+8)
+  lbp_radius: 2
+  lbp_points: 16               # 18 uniform LBP bins
+  glcm_distances: [1, 3]
+  glcm_angles: [0, 0.785398, 1.570796, 2.356194]
+  max_workers: 8
+
+training:
+  batch_size: 64
+  num_workers: 4
+  custom_cnn_epochs: 12
+  transfer_cnn_epochs: 8
+  feature_mlp_epochs: 40
+  learning_rate_custom: 0.001
+  learning_rate_transfer: 0.0005
+  learning_rate_mlp: 0.001
+  weight_decay: 0.0001
+  early_stopping_patience: 4
+  transfer_backbone: "mobilenet_v2"

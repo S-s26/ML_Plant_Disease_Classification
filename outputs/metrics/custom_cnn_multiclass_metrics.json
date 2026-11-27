@@ -1,0 +1,14 @@
+{
+  "model": "custom_cnn_multiclass",
+  "arch": "custom",
+  "task": "multiclass",
+  "num_params": 1211270,
+  "epochs_trained": 12,
+  "train_seconds": 4846.1,
+  "test_loss": 0.6896262430306822,
+  "accuracy": 0.9764856230031949,
+  "macro_precision": 0.9594028351220087,
+  "macro_recall": 0.9644671385136802,
+  "macro_f1": 0.9615157101462107,
+  "weighted_f1": 0.976378004959141
+}

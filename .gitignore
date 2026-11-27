@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+
+# Data & Large Artifacts (PlantVillage dataset is downloaded locally)
+data/raw/
+data/processed/
+*.zip
+*.tar.gz
+
+# Trained Model Weights (reproducible via scripts)
+models/*.pt
+models/*.pth
+models/*.joblib
+!models/.gitkeep
+
+# Logs & Cache
+.ipynb_checkpoints/
+.pytest_cache/
+*.log
+.DS_Store
+Thumbs.db

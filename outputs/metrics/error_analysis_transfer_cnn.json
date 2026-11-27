@@ -1,0 +1,81 @@
+{
+  "total_test_samples": 7825,
+  "total_misclassified": 28,
+  "top_confused_pairs": [
+    {
+      "true_class": "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot",
+      "pred_class": "Corn_(maize)___Northern_Leaf_Blight",
+      "count": 6
+    },
+    {
+      "true_class": "Tomato___Early_blight",
+      "pred_class": "Tomato___Septoria_leaf_spot",
+      "count": 3
+    },
+    {
+      "true_class": "Pepper,_bell___healthy",
+      "pred_class": "Pepper,_bell___Bacterial_spot",
+      "count": 2
+    },
+    {
+      "true_class": "Corn_(maize)___Northern_Leaf_Blight",
+      "pred_class": "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot",
+      "count": 2
+    },
+    {
+      "true_class": "Tomato___Late_blight",
+      "pred_class": "Tomato___healthy",
+      "count": 2
+    },
+    {
+      "true_class": "Tomato___Spider_mites Two-spotted_spider_mite",
+      "pred_class": "Tomato___Target_Spot",
+      "count": 2
+    },
+    {
+      "true_class": "Tomato___Early_blight",
+      "pred_class": "Tomato___Late_blight",
+      "count": 2
+    },
+    {
+      "true_class": "Blueberry___healthy",
+      "pred_class": "Pepper,_bell___healthy",
+      "count": 1
+    },
+    {
+      "true_class": "Tomato___Bacterial_spot",
+      "pred_class": "Tomato___Late_blight",
+      "count": 1
+    },
+    {
+      "true_class": "Potato___Late_blight",
+      "pred_class": "Tomato___Late_blight",
+      "count": 1
+    },
+    {
+      "true_class": "Potato___Late_blight",
+      "pred_class": "Potato___Early_blight",
+      "count": 1
+    },
+    {
+      "true_class": "Corn_(maize)___Common_rust_",
+      "pred_class": "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot",
+      "count": 1
+    },
+    {
+      "true_class": "Tomato___Late_blight",
+      "pred_class": "Potato___Late_blight",
+      "count": 1
+    },
+    {
+      "true_class": "Tomato___Bacterial_spot",
+      "pred_class": "Tomato___Septoria_leaf_spot",
+      "count": 1
+    },
+    {
+      "true_class": "Tomato___Late_blight",
+      "pred_class": "Tomato___Early_blight",
+      "count": 1
+    }
+  ]
+}

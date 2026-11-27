@@ -1,0 +1,14 @@
+{
+  "model": "transfer_mobilenet_v2_multiclass",
+  "arch": "transfer",
+  "task": "multiclass",
+  "num_params": 2272550,
+  "epochs_trained": 8,
+  "train_seconds": 1300.5,
+  "test_loss": 0.5433739391264443,
+  "accuracy": 0.9964217252396166,
+  "macro_precision": 0.9952455383819652,
+  "macro_recall": 0.9946332315010056,
+  "macro_f1": 0.9949119104411468,
+  "weighted_f1": 0.9964131321475683
+}

@@ -1,0 +1,26 @@
+{
+  "total_files_found": 54305,
+  "corrupt_files_removed": 0,
+  "exact_md5_duplicates_found": 21,
+  "deduplicated_exact_md5": true,
+  "usable_images": 54284,
+  "unique_leaf_groups": 20015,
+  "split_strategy": "StratifiedGroupKFold(n_splits=7, groups=leaf_id) -> 5:1:1 train:val:test",
+  "num_classes": 38,
+  "num_crops": 14,
+  "healthy_images": 15071,
+  "diseased_images": 39213,
+  "split_counts": {
+    "train": 38741,
+    "test": 7825,
+    "val": 7718
+  },
+  "split_leaf_group_counts": {
+    "train": 14298,
+    "val": 2858,
+    "test": 2859
+  },
+  "image_dimensions_unique": {
+    "256x256": 54284
+  }
+}

@@ -1,0 +1,112 @@
+[
+  {
+    "model": "Logistic Regression (Features)",
+    "task": "Binary",
+    "accuracy": 0.9309904153354632,
+    "macro_precision": 0.9008477028914107,
+    "macro_recall": 0.935109801033903,
+    "macro_f1": 0.9155602538687811,
+    "weighted_f1": 0.9324019637386933,
+    "roc_auc": 0.9833328963192783
+  },
+  {
+    "model": "Logistic Regression (Features)",
+    "task": "38-Class",
+    "accuracy": 0.9261341853035143,
+    "macro_precision": 0.890980553208113,
+    "macro_recall": 0.9243620922531119,
+    "macro_f1": 0.9049419162320461,
+    "weighted_f1": 0.926630447932144,
+    "roc_auc": NaN
+  },
+  {
+    "model": "Random Forest (Features)",
+    "task": "Binary",
+    "accuracy": 0.9777635782747603,
+    "macro_precision": 0.9742306394984919,
+    "macro_recall": 0.9686792861851395,
+    "macro_f1": 0.9714091649926471,
+    "weighted_f1": 0.9776981221336056,
+    "roc_auc": 0.9972912365766401
+  },
+  {
+    "model": "Random Forest (Features)",
+    "task": "38-Class",
+    "accuracy": 0.9155271565495208,
+    "macro_precision": 0.8874964893184242,
+    "macro_recall": 0.8690797917898893,
+    "macro_f1": 0.8753130708481315,
+    "weighted_f1": 0.9143286368441299,
+    "roc_auc": NaN
+  },
+  {
+    "model": "Feature-MLP (Features)",
+    "task": "Binary",
+    "accuracy": 0.9893929712460063,
+    "macro_precision": 0.9839938650276332,
+    "macro_recall": 0.9891089556204711,
+    "macro_f1": 0.9865128705082522,
+    "weighted_f1": 0.9894208483272624,
+    "roc_auc": 0.9993031852646209
+  },
+  {
+    "model": "Feature-MLP (Features)",
+    "task": "38-Class",
+    "accuracy": 0.9610223642172524,
+    "macro_precision": 0.9388229345029586,
+    "macro_recall": 0.951867964851672,
+    "macro_f1": 0.9443191278272548,
+    "weighted_f1": 0.961118956265387,
+    "roc_auc": NaN
+  },
+  {
+    "model": "Custom CNN (Direct Binary)",
+    "task": "Binary",
+    "accuracy": 0.994888178913738,
+    "macro_precision": 0.9933174651975913,
+    "macro_recall": 0.9936181056092062,
+    "macro_f1": 0.9934676566777328,
+    "weighted_f1": 0.9948889574953965,
+    "roc_auc": 0.9997529896354184
+  },
+  {
+    "model": "Custom CNN (From Scratch)",
+    "task": "38-Class",
+    "accuracy": 0.9764856230031949,
+    "macro_precision": 0.9594028351220087,
+    "macro_recall": 0.9644671385136802,
+    "macro_f1": 0.9615157101462107,
+    "weighted_f1": 0.976378004959141,
+    "roc_auc": NaN
+  },
+  {
+    "model": "Custom CNN (From Scratch) [Rollup]",
+    "task": "Binary",
+    "accuracy": 0.9970607028753994,
+    "macro_precision": 0.996619741562338,
+    "macro_recall": 0.9958616578286836,
+    "macro_f1": 0.9962398898268394,
+    "weighted_f1": 0.9970595803192607,
+    "roc_auc": 0.9999613367820144
+  },
+  {
+    "model": "Transfer CNN (mobilenet_v2)",
+    "task": "38-Class",
+    "accuracy": 0.9964217252396166,
+    "macro_precision": 0.9952455383819652,
+    "macro_recall": 0.9946332315010056,
+    "macro_f1": 0.9949119104411468,
+    "weighted_f1": 0.9964131321475683,
+    "roc_auc": NaN
+  },
+  {
+    "model": "Transfer CNN (mobilenet_v2) [Rollup]",
+    "task": "Binary",
+    "accuracy": 0.9994888178913738,
+    "macro_precision": 0.9993465665642829,
+    "macro_recall": 0.9993465665642829,
+    "macro_f1": 0.9993465665642829,
+    "weighted_f1": 0.9994888178913738,
+    "roc_auc": 0.9998584575497073
+  }
+]

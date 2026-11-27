@@ -1,0 +1,15 @@
+{
+  "model": "custom_cnn_binary",
+  "arch": "custom",
+  "task": "binary",
+  "num_params": 1206626,
+  "epochs_trained": 15,
+  "train_seconds": 1851.4,
+  "test_loss": 0.016138298176370334,
+  "accuracy": 0.994888178913738,
+  "macro_precision": 0.9933174651975913,
+  "macro_recall": 0.9936181056092062,
+  "macro_f1": 0.9934676566777328,
+  "weighted_f1": 0.9948889574953965,
+  "roc_auc": 0.9997529896354184
+}
